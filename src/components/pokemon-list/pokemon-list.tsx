@@ -7,7 +7,7 @@ import { Component, Host, h, Prop } from '@stencil/core';
 })
 export class PokemonList {
 
-  @Prop() color;
+  @Prop() color: string;
 
   @Prop() list: {
     name: string,

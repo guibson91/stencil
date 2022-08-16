@@ -2,13 +2,12 @@
   display: block;
 }
 .item {
-  /* color: red; */
   display: flex;
   border-bottom: 1px solid lightgray;
   padding-top: 0.5em;
   padding-bottom: 0.5em;
 }
-h1 {  
+h1 {
   margin: 0;
   font-size: 1.1em;
   margin-bottom: 5px;
@@ -23,7 +22,7 @@ p {
   overflow: hidden;
   text-overflow: ellipsis;
   display: -webkit-box;
-  -webkit-line-clamp: 4; /* number of lines to show */
+  -webkit-line-clamp: 4;
   line-clamp: 4;
   -webkit-box-orient: vertical;
 }
