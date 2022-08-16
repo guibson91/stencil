@@ -21,7 +21,7 @@ export namespace Components {
         "middle": string;
     }
     interface PokemonList {
-        "color": any;
+        "color": string;
         "list": {
     name: string,
     url: string,
@@ -63,7 +63,7 @@ declare namespace LocalJSX {
         "middle"?: string;
     }
     interface PokemonList {
-        "color"?: any;
+        "color"?: string;
         "list"?: {
     name: string,
     url: string,
